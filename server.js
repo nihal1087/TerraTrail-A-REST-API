@@ -3,6 +3,8 @@ import { getDataFromDB } from './database/db.js'
 import { sendJSONResponse } from './utils/sendJSONResponse.js'
 import { getDataByPathParams } from './utils/getDataByPathParams.js'
 import { getDataByQueryParams } from './utils/getDataByQueryParams.js'
+import { marked } from 'marked'
+
 
 const PORT = process.env.PORT || 8001
 
@@ -25,6 +27,46 @@ const server = http.createServer(async (req, res) => {
     const destinations = await getDataFromDB()
     const urlObj = new URL(req.url, `http://${req.headers.host}`)
     const queryObj = Object.fromEntries(urlObj.searchParams)
+
+    if (urlObj.pathname === '/' && req.method === 'GET') {
+        const readmePath = path.join(process.cwd(), 'README.md')
+        const markdown = await fs.readFile(readmePath, 'utf-8')
+        const html = marked(markdown)
+
+        res.writeHead(200, { 'Content-Type': 'text/html' })
+        return res.end(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>TerraTrail API</title>
+            <meta charset="utf-8" />
+            <style>
+                body {
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+                    max-width: 900px;
+                    margin: 40px auto;
+                    line-height: 1.6;
+                    padding: 0 20px;
+                }
+                pre {
+                    background: #f4f4f4;
+                    padding: 12px;
+                    overflow-x: auto;
+                }
+                code {
+                    background: #eee;
+                    padding: 2px 4px;
+                }
+            </style>
+        </head>
+        <body>
+            ${html}
+        </body>
+        </html>
+    `)
+    }
+
+
 
     if (urlObj.pathname === "/api") {
         const filteredData = getDataByQueryParams(destinations, queryObj)
