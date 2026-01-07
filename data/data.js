@@ -15,7 +15,7 @@ export const data = [
           "A subterranean network of limestone caverns famous for its magical boat rides under twinkling glowworm-lit ceilings.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440001"
+    uuid: "550e8400-e29b-41d4-a716-446655440001",
   },
   {
     name: "The Door to Hell",
@@ -33,7 +33,7 @@ export const data = [
           "A continuously burning gas crater in the Karakum Desert, captivating adventurous travelers with its otherworldly glow.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440002"
+    uuid: "550e8400-e29b-41d4-a716-446655440002",
   },
   {
     name: "Underwater Waterfall",
@@ -51,7 +51,7 @@ export const data = [
           "An incredible illusion off the island’s coast, appearing as if water cascades into a vast underwater abyss.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440003"
+    uuid: "550e8400-e29b-41d4-a716-446655440003",
   },
   {
     name: "Giant's Causeway",
@@ -69,7 +69,7 @@ export const data = [
           "A UNESCO World Heritage Site featuring striking hexagonal basalt columns along the scenic Northern Irish coastline.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440004"
+    uuid: "550e8400-e29b-41d4-a716-446655440004",
   },
   {
     name: "Fly Geyser",
@@ -87,7 +87,7 @@ export const data = [
           "A colorful, continuously spouting geothermal formation with vibrant mineral deposits on a private Nevada ranch.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440005"
+    uuid: "550e8400-e29b-41d4-a716-446655440005",
   },
   {
     name: "Kjeragbolten",
@@ -105,7 +105,7 @@ export const data = [
           "A legendary hiking destination where brave visitors can stand on a rock suspended between two cliffs.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440006"
+    uuid: "550e8400-e29b-41d4-a716-446655440006",
   },
   {
     name: "The Wave",
@@ -122,7 +122,7 @@ export const data = [
           "A sought-after hiking spot in the Coyote Buttes area, prized for its surreal, undulating sandstone formations.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440007"
+    uuid: "550e8400-e29b-41d4-a716-446655440007",
   },
   {
     name: "Socotra Island",
@@ -139,7 +139,7 @@ export const data = [
           "A remote and biologically diverse island, known for its unique flora and striking desert landscapes.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440008"
+    uuid: "550e8400-e29b-41d4-a716-446655440008",
   },
   {
     name: "Pamukkale",
@@ -157,7 +157,7 @@ export const data = [
           "A famed natural site boasting tiered, cotton-white terraces and warm mineral-rich waters for bathing.",
       },
     ],
-    uuid: "550e8400-e29b-41d4-a716-446655440009"
+    uuid: "550e8400-e29b-41d4-a716-446655440009",
   },
   {
     name: "Cano Cristales",
@@ -335,5 +335,362 @@ export const data = [
       },
     ],
     uuid: "550e8400-e29b-41d4-a716-446655440019",
-  }
+  },
+  {
+    name: "Machu Picchu",
+    location: "Cusco Region",
+    country: "Peru",
+    continent: "South America",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Built in the 15th century and never discovered by Spanish conquistadors.",
+      },
+      {
+        description:
+          "An ancient Incan citadel set high in the Andes Mountains, renowned for its stone architecture and breathtaking views.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440020",
+  },
+  {
+    name: "Petra",
+    location: "Ma'an Governorate",
+    country: "Jordan",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Also known as the 'Rose City' due to the color of its rock-cut buildings.",
+      },
+      {
+        description:
+          "A historic city carved into red sandstone cliffs, once a major trading hub of the Nabataean kingdom.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440021",
+  },
+  {
+    name: "Great Barrier Reef",
+    location: "Queensland Coast",
+    country: "Australia",
+    continent: "Oceania",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact: "The largest living structure on Earth, visible from space.",
+      },
+      {
+        description:
+          "A vast coral reef system famous for its marine biodiversity, crystal-clear waters, and vibrant coral formations.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440022",
+  },
+  {
+    name: "Antelope Canyon",
+    location: "Arizona",
+    country: "USA",
+    continent: "North America",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Formed by flash flooding and erosion over millions of years.",
+      },
+      {
+        description:
+          "A narrow slot canyon known for its smooth, flowing rock walls and dramatic light beams.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440023",
+  },
+  {
+    name: "Easter Island (Rapa Nui)",
+    location: "Pacific Ocean",
+    country: "Chile",
+    continent: "South America",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact: "Home to nearly 1,000 massive stone statues called Moai.",
+      },
+      {
+        description:
+          "A remote volcanic island famous for its mysterious Moai statues and unresolved archaeological questions.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440024",
+  },
+  {
+    name: "Mount Everest Base Camp",
+    location: "Solukhumbu",
+    country: "Nepal",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Located at an altitude of over 5,300 meters above sea level.",
+      },
+      {
+        description:
+          "The primary staging point for climbers attempting to summit the highest mountain on Earth.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440025",
+  },
+  {
+    name: "Salar de Uyuni",
+    location: "Potosí Department",
+    country: "Bolivia",
+    continent: "South America",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Transforms into the world’s largest natural mirror during the rainy season.",
+      },
+      {
+        description:
+          "A massive salt flat that creates surreal reflections of the sky, offering one of the most otherworldly landscapes on Earth.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440026",
+  },
+  {
+    name: "Stonehenge",
+    location: "Wiltshire",
+    country: "United Kingdom",
+    continent: "Europe",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Its exact purpose remains unknown, with theories ranging from astronomy to ritual use.",
+      },
+      {
+        description:
+          "A prehistoric stone monument arranged in a circular formation, shrouded in mystery and ancient legend.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440027",
+  },
+  {
+    name: "Bermuda Triangle",
+    location: "North Atlantic Ocean",
+    country: "International Waters",
+    continent: "North America",
+    is_open_to_public: false,
+    details: [
+      {
+        fun_fact:
+          "Associated with unexplained ship and aircraft disappearances.",
+      },
+      {
+        description:
+          "A loosely defined region of the Atlantic Ocean infamous for mysterious navigation anomalies and legends.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440028",
+  },
+  {
+    name: "Uluru (Ayers Rock)",
+    location: "Northern Territory",
+    country: "Australia",
+    continent: "Oceania",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Sacred to the Anangu people and changes color throughout the day.",
+      },
+      {
+        description:
+          "A massive sandstone monolith rising from the desert, holding deep spiritual and cultural significance.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440029",
+  },
+  {
+    name: "Bhangarh Fort",
+    location: "Rajasthan",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: false,
+    details: [
+      {
+        fun_fact:
+          "Considered one of the most haunted places in India, entry is prohibited after sunset.",
+      },
+      {
+        description:
+          "A ruined 17th-century fort surrounded by legends of curses, paranormal sightings, and unexplained sounds.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440030",
+  },
+  {
+    name: "Living Root Bridges",
+    location: "Meghalaya",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "These bridges are grown, not built, by training the roots of rubber fig trees.",
+      },
+      {
+        description:
+          "Naturally formed bridges created over decades by indigenous Khasi and Jaintia tribes in dense rainforest terrain.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440031",
+  },
+  {
+    name: "Lonar Crater Lake",
+    location: "Maharashtra",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "One of the very few hyper-velocity meteorite impact craters on basalt rock.",
+      },
+      {
+        description:
+          "A unique saline lake formed by a meteor impact around 50,000 years ago, surrounded by ancient temples.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440032",
+  },
+  {
+    name: "Valley of Flowers",
+    location: "Uttarakhand",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Home to hundreds of endemic alpine flower species that bloom seasonally.",
+      },
+      {
+        description:
+          "A UNESCO World Heritage Site famous for its vibrant meadows, rare flora, and breathtaking Himalayan views.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440033",
+  },
+  {
+    name: "Dhanushkodi",
+    location: "Tamil Nadu",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "The town was destroyed by a cyclone in 1964 and declared uninhabitable.",
+      },
+      {
+        description:
+          "A ghost town at the southeastern tip of India where the Bay of Bengal meets the Indian Ocean.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440034",
+  },
+  {
+    name: "Rann of Kutch (White Desert)",
+    location: "Gujarat",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Transforms into a vast white salt desert after monsoon season.",
+      },
+      {
+        description:
+          "A surreal salt marsh offering mirror-like landscapes, cultural festivals, and extreme climatic conditions.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440035",
+  },
+  {
+    name: "Sundarbans Mangrove Forest",
+    location: "West Bengal",
+    country: "India & Bangladesh",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Largest mangrove forest in the world and habitat of the Royal Bengal Tiger.",
+      },
+      {
+        description:
+          "A vast deltaic ecosystem of tidal waterways, mudflats, and dense mangroves spanning India and Bangladesh.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440036",
+  },
+  {
+    name: "Kailasa Temple, Ellora",
+    location: "Maharashtra",
+    country: "India",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact: "Carved entirely from a single rock from top to bottom.",
+      },
+      {
+        description:
+          "An architectural marvel and UNESCO World Heritage Site showcasing extraordinary ancient rock-cut engineering.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440037",
+  },
+  {
+    name: "Sigiriya Rock Fortress",
+    location: "Matale District",
+    country: "Sri Lanka",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Often called the 'Lion Rock' due to its massive lion-shaped entrance.",
+      },
+      {
+        description:
+          "An ancient rock fortress rising dramatically from the plains, known for its frescoes and hydraulic gardens.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440038",
+  },
+  {
+    name: "Paro Taktsang (Tiger's Nest)",
+    location: "Paro Valley",
+    country: "Bhutan",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Built on a cliff face nearly 900 meters above the valley floor.",
+      },
+      {
+        description:
+          "A sacred Himalayan monastery dramatically perched on a sheer cliff, central to Bhutanese spirituality.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440039",
+  },
 ];
