@@ -4,6 +4,8 @@ import { sendJSONResponse } from './utils/sendJSONResponse.js'
 import { getDataByPathParams } from './utils/getDataByPathParams.js'
 import { getDataByQueryParams } from './utils/getDataByQueryParams.js'
 import { marked } from 'marked'
+import path from "node:path"
+import fs from "node:fs/promises"
 
 
 const PORT = process.env.PORT || 8001
@@ -65,8 +67,6 @@ const server = http.createServer(async (req, res) => {
         </html>
     `)
     }
-
-
 
     if (urlObj.pathname === "/api") {
         const filteredData = getDataByQueryParams(destinations, queryObj)

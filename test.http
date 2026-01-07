@@ -1,3 +1,4 @@
-GET http://localhost:8001/api/continent/Asia
+GET http://localhost:8001/
+
 
 # http://localhost:8001/api
